@@ -43,7 +43,7 @@ class BonusServiceTest {
         // подготавливаем данные:
         long amount = 49999;
         boolean registered = false;
-        long expected = 499;
+        long expected = 4;
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
@@ -59,7 +59,7 @@ class BonusServiceTest {
         // подготавливаем данные:
         long amount = 50000;
         boolean registered = false;
-        long expected = 500;
+        long expected = 5;
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
@@ -75,7 +75,7 @@ class BonusServiceTest {
         // подготавливаем данные:
         long amount = 50000_1;
         boolean registered = false;
-        long expected = 500;
+        long expected = 50;
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
